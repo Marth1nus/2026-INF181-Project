@@ -5,6 +5,6 @@
 |    St# | Name      | Surname  |
 | -----: | :-------- | :------- |
 | 578515 | Marthinus | Prinsloo |
-|600221  | willem    |  kruger  |
-|        |           |          |
+| 600221 | Willem    | Kruger   |
+| 606135 | Travis    | Hanekom  |
 |        |           |          |
