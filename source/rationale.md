@@ -4,6 +4,15 @@
 
 _TODO_
 
+## Where is our work is located?
+
+| Resource Name         | Resource Location                                                   |
+| :-------------------- | :------------------------------------------------------------------ |
+| GitHub Repo (file)    | <https://github.com/Marth1nus/2026-INF181-Project/>                 |
+| Presentation Document | <https://marth1nus.github.io/2026-INF181-Project/presentation.html> |
+| Rationale Document    | <https://marth1nus.github.io/2026-INF181-Project/rationale.pdf>     |
+| Who did what?         | <https://github.com/Marth1nus/2026-INF181-Project/commits/main/>    |
+
 ## Design Goals and Target Audience.
 
 _TODO_
