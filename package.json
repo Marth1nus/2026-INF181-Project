@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "archiver": "^8.0.0",
+    "markdown-it": "^15.0.2"
+  },
+  "devDependencies": {
+    "playwright": "^1.64.0"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  }
+}
