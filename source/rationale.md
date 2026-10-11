@@ -4,7 +4,7 @@
 
 _TODO_
 
-## Where is our work is located?
+### Where is our work is located?
 
 | Resource Name         | Resource Location                                                   |
 | :-------------------- | :------------------------------------------------------------------ |
@@ -12,6 +12,15 @@ _TODO_
 | Presentation Document | <https://marth1nus.github.io/2026-INF181-Project/presentation.html> |
 | Rationale Document    | <https://marth1nus.github.io/2026-INF181-Project/rationale.pdf>     |
 | Who did what?         | <https://github.com/Marth1nus/2026-INF181-Project/commits/main/>    |
+
+### Group Members
+
+|    St# | Name        | Surname  |
+| -----: | :---------- | :------- |
+| 578515 | Marthinus   | Prinsloo |
+| 600221 | Willem      | Kruger   |
+| 606135 | Travis      | Hanekom  |
+| 606091 | Christopher | Visser   |
 
 ## Design Goals and Target Audience.
 
