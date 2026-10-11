@@ -42,8 +42,8 @@ jobs:
         with:
           name: deliverables
           path: |
-            dist/rationale.pdf
-            dist/presentation.zip
+            output/presentation.html
+            output/rationale.pdf
           if-no-files-found: error
           retention-days: 14
 
@@ -51,7 +51,7 @@ jobs:
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist/presentation
+          path: output/
 
   deploy:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
@@ -90,5 +90,5 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: |
+            release-files/presentation.html
             release-files/rationale.pdf
-            release-files/presentation.zip

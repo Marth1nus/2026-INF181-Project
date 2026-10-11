@@ -1,5 +1,15 @@
 # 2026 INF181 Project
 
+This is a project for the module `INF181` for [Belgium Campus Itvercity](https://www.belgiumcampus.ac.za/)
+
+## Project Outputs
+
+The output of this project can be found [here](https://github.com/Marth1nus/2026-INF181-Project/releases/latest) and includes \
+a `pdf` file containing the **rationale** segment of the project and \
+a `html` file containing the **presentation** segment of the project.
+
+This project is also **deployed** [here](https://marth1nus.github.io/2026-INF181-Project/presentation.html) for viewing.
+
 ## Group Members
 
 |    St# | Name        | Surname  |
@@ -8,11 +18,10 @@
 | 600221 | Willem      | Kruger   |
 | 606135 | Travis      | Hanekom  |
 | 606091 | Christopher | Visser   |
----------------------------------
 
 ## How to build.
 
-To generate the output files in [`dist/`](./dist/). \
+To generate the output files in [`output/`](./output/). \
 Run this command in the project directory:
 
 ```sh
@@ -35,5 +44,5 @@ These are the core content of the project. All other files are related to deploy
 
 - `ChatGPT` assisted with files:
   - [`.github/workflows/build.yml`](./.github/workflows/build.yml) to deploy the webpage and releases.
-  - [`scripts/build.mjs`](./scripts/build.mjs) to build the output files into [`dist/`](./dist/).
+  - [`scripts/build.mjs`](./scripts/build.mjs) to build the output files into [`output/`](./output/).
   - [`scripts/styles.css`](./scripts/styles.css) to style the webpages.

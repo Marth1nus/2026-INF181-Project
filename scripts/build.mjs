@@ -1,23 +1,28 @@
 
-import { readFile, mkdir, rm, copyFile, writeFile } from 'node:fs/promises';
-import { createWriteStream } from 'node:fs';
+import MarkdownIt from 'markdown-it';
+import { mkdir, readFile, rm, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import MarkdownIt from 'markdown-it';
 import { chromium } from 'playwright';
-import * as archiver from 'archiver';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const sourceDir = path.join(root, 'source');
 const scriptsDir = path.join(root, 'scripts');
-const distDir = path.join(root, 'dist');
-const siteDir = path.join(distDir, 'presentation');
+const outputDir = path.join(root, 'output');
 
 const md = new MarkdownIt({
   html: false,
   linkify: true,
   typographer: true,
 });
+
+try {
+  await main()
+}
+catch (error) {
+  console.error('Build failed:', error);
+  process.exitCode = 1;
+}
 
 async function renderMarkdown(filename) {
   const source = await readFile(
@@ -48,28 +53,11 @@ function renderTemplate(template, { title, stylesheet, content }) {
   return html;
 }
 
-async function createZip(directory, outputPath) {
-  await new Promise((resolve, reject) => {
-    const output = createWriteStream(outputPath);
-    const archive = new archiver.ZipArchive({
-      zlib: { level: 9 },
-    });
-
-    output.on('close', resolve);
-    output.on('error', reject);
-    archive.on('error', reject);
-
-    archive.pipe(output);
-    archive.directory(directory, false);
-    archive.finalize();
-  });
-}
-
 async function main() {
   console.log('Preparing build directory...');
 
-  await rm(distDir, { recursive: true, force: true });
-  await mkdir(siteDir, { recursive: true });
+  await rm(outputDir, { recursive: true, force: true });
+  await mkdir(outputDir, { recursive: true });
 
   const [template, css, presentation, rationale] = await Promise.all([
     readFile(path.join(scriptsDir, 'index.template.html'), 'utf8'),
@@ -82,19 +70,14 @@ async function main() {
 
   const websiteHtml = renderTemplate(template, {
     title: 'INF1781 — Information Systems Project',
-    stylesheet: '<link rel="stylesheet" href="styles.css">',
+    stylesheet: `<style>${css}</style>`,
     content: presentation,
   });
 
   await writeFile(
-    path.join(siteDir, 'index.html'),
+    path.join(outputDir, 'presentation.html'),
     websiteHtml,
     'utf8',
-  );
-
-  await copyFile(
-    path.join(scriptsDir, 'styles.css'),
-    path.join(siteDir, 'styles.css'),
   );
 
   console.log('Generating rationale PDF...');
@@ -117,7 +100,7 @@ async function main() {
     });
 
     await page.pdf({
-      path: path.join(distDir, 'rationale.pdf'),
+      path: path.join(outputDir, 'rationale.pdf'),
       format: 'A4',
       printBackground: true,
       preferCSSPageSize: true,
@@ -126,17 +109,7 @@ async function main() {
     await browser.close();
   }
 
-  console.log('Creating website ZIP...');
-
-  await createZip(siteDir, `${siteDir}.zip`);
-
   console.log('Build complete.');
-  console.log('  PDF:      dist/rationale.pdf');
-  console.log('  ZIP:      dist/presentation.zip');
-  console.log('  Website:  dist/presentation/index.html');
+  console.log('  Website: output/presentation.html');
+  console.log('  PDF:     output/rationale.pdf');
 }
-
-main().catch((error) => {
-  console.error('Build failed:', error);
-  process.exitCode = 1;
-});

@@ -1,4 +1,4 @@
-.git
+.git/
 INF1781 Group Project.pdf
-node_modules
-dist
+node_modules/
+output/
