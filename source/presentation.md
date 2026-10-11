@@ -1,13 +1,37 @@
-# Presentation Title
+# SME Digital Transformation: Retail and Small Business
 
-## Scaling with the help of technology
+## Introduction
 
-## Data quality and dashboards with live feedback
+_TODO_
 
-## Customer privacy and ethics regarding consumer data
+## Data and Information Management
 
-## Using AI and DSS to forecast customer demand
+_TODO_
 
-## Integration of the information system
+## Data Ethics, Privacy, and POPIA compliance.
 
-## Fitting software to your store's workflow
+_TODO_
+
+## Artificial Intelligence (AI) and Decision Support.
+
+_TODO_
+
+## Enterprise Systems and Information System (IS) Integration challenges.
+
+_TODO_
+
+## Adapting and Customizing Information Systems
+
+_TODO_
+
+## Practical Recommendation
+
+_TODO_
+
+## Conclusion
+
+_TODO_
+
+## References
+
+_TODO_

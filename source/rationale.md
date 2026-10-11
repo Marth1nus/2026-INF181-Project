@@ -1,25 +1,77 @@
-# Rationale
+# SME Digital Transformation<sub>(Retail and Small Business)</sub> Rationale.
 
-## Scaling with the help of technology
+## Introduction
 
-Introduces reasons to move from physical record keeping to digital.
+_TODO_
 
-## Data quality and dashboards with live feedback
+## Design Goals and Target Audience.
 
-Provides real time feedback on operations like monitoring sales trend and stock movement.
+_TODO_
 
-## Customer privacy and ethics regarding consumer data
+## Structure and Heading Choices
 
-Provides clarity on privacy laws so retail staff know how to handle customer information in a legal and ethical manner.
+The first 5 headings after the introduction are the requirements from the project PDF. \
+Introduction and Conclusions were added where terminology and expectations can be communicated to the audience. \
+A Recommendation to the client header was added near the end to propose next steps to the retailer.
 
-## Using AI and DSS to forecast customer demand
+Additional motivation and content explanations in the [Explanations per header](#explanations-per-header).
 
-Explains how DSS and running out of critical products.
+## Explanations per header
 
-## Integration of the information system
+_TODO_
 
-This is the focus section where we explain how the replacement of manual processes with integrated software will take place.
+### Data and Information Management
 
-## Fitting software to your store's workflow
+_TODO_
 
-Teaches the owner adapt the stores workflow and software without paying for unnecessary custom software.
+### Data Ethics, Privacy, and POPIA compliance.
+
+_TODO_
+
+### Artificial Intelligence (AI) and Decision Support.
+
+_TODO_
+
+### Enterprise Systems and Information System (IS) Integration challenges.
+
+_TODO_
+
+### Adapting and Customizing Information Systems
+
+_TODO_
+
+### Practical Recommendation
+
+_TODO_
+
+## Visual Design and Usability
+
+For ease of content writing the source files are written in [Markdown](https://en.wikipedia.org/wiki/Markdown). \
+Markdown allows for html elements to be inserted and renders to html. \
+A simple css style sheet is used to format the document.
+
+GitHub Actions and Pages are used to run a NodeJS script that renders the markdown files to an html page and \
+Chromium is used to render the html and create a PDF from the html content.
+
+Our team is able to update the written and document formatting in Markdown while using an external CSS file to provide additional styling if desired. \
+The Continuos Deployment (CD) also means that we get a HTTPS output URL that stays in sync with the contents of our repo.
+
+Here are some decisions made for the visual presentation:
+
+- _TODO_
+- _TODO_
+- _TODO_
+
+## AI Disclaimer
+
+For a per file break-down see [AI use record](https://github.com/Marth1nus/2026-INF181-Project/#ai-use)
+
+- [`ChatGPT`](https://chatgpt.com) was used to assist with scripts generating and deploying the output files (`presentation.html` and `rationale.pdf`) from the markdown source files.
+
+## Conclusion
+
+_TODO_
+
+## References
+
+_TODO_

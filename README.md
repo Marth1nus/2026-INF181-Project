@@ -42,7 +42,7 @@ These are the core content of the project. All other files are related to deploy
 
 ## AI use
 
-- `ChatGPT` assisted with files:
+- [`ChatGPT`](https://chatgpt.com) assisted with files:
   - [`.github/workflows/build.yml`](./.github/workflows/build.yml) to deploy the webpage and releases.
   - [`scripts/build.mjs`](./scripts/build.mjs) to build the output files into [`output/`](./output/).
   - [`scripts/styles.css`](./scripts/styles.css) to style the webpages.
