@@ -1,4 +1,4 @@
-# SME Digital Transformation<sub>(Retail and Small Business)</sub> Rationale.
+# SME Digital Transformation Presentation Rationale.
 
 ## Introduction
 
@@ -14,7 +14,7 @@ The first 5 headings after the introduction are the requirements from the projec
 Introduction and Conclusions were added where terminology and expectations can be communicated to the audience. \
 A Recommendation to the client header was added near the end to propose next steps to the retailer.
 
-Additional motivation and content explanations in the [Explanations per header](#explanations-per-header).
+Additional motivation in [Explanations per header](#explanations-per-header).
 
 ## Explanations per header
 
