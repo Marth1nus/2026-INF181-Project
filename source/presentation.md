@@ -80,4 +80,6 @@ _TODO_
 
 ## References
 
-_TODO_
+Turban, E. and Pollard, C. and Wood, G. (2023) Information Technology for Management, 11th Edition NJ: John Wiley & Sons.
+
+Stanton, D., 2023. Supply Chain Management For Dummies. 3rd ed. Hoboken, NJ: John Wiley & Sons.
