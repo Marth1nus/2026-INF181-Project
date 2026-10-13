@@ -67,40 +67,40 @@ _TODO_
 
 What limitation can be expected and what challenges will present themselves.
 
-Enterprise systems (such as ERP software) aim to connect the POS, inventory, finance and customer tools into **one shared system**. The value only appears when those parts actually talk to each other — and that is exactly where integration becomes difficult.
+Enterprise systems (such as ERP software) aim to bring the POS, inventory, finance and customer tools together into **one shared system**. Those parts only create value once they actually talk to each other, and that is exactly where integration gets difficult.
 
 ### Common limitations
 
-- **Fragmented systems (data silos)** — South African SME retailers typically run many separate apps (POS, stock, accounting, loyalty, payments) that do not integrate; in practice they install dozens yet keep using only a handful. Reconciling them is manual and error-prone, leading to spoiled stock, missed sales and unused insights.
-- **No single source of truth** — when the till, the stock count and the books disagree, there is no reliable record to manage the business.
-- **Cascading errors** — because all functions share one database, a single wrong data entry or bad migration spreads everywhere.
+- **Fragmented systems (data silos):** South African SME retailers typically run many separate apps (POS, stock, accounting, loyalty, payments) that do not integrate. In practice, they install dozens yet keep using only a handful. Reconciling them is manual and error-prone, which leads to spoiled stock, missed sales and insights that never get used.
+- **No single source of truth:** when the till, the stock count and the books disagree, there is no reliable record to manage the business on.
+- **Cascading errors:** because all the functions share one database, a single wrong entry or a bad migration spreads everywhere.
 
 ### Integration challenges
 
-- **Process mismatch** — packaged systems are built around generic processes. When the software does not match how the business actually works, staff fall back to spreadsheets and workarounds.
-- **Connection complexity** — linking POS, e-commerce, suppliers and banks needs APIs and middleware. Every connection can break when either side changes, and each new tool adds logins, training and fees.
-- **Cost blowouts** — data migration, integration, customisation and training cost far more than the licence fee; professional setup alone can run two to three times the annual licence, and real first-year projects overshoot their budget (e.g. a SME that budgeted R60,000 ended up at R180,000).
-- **Skills shortage and change resistance** — most South African businesses cite skills shortages as a barrier to digital transformation. Staff who are not trained bypass the system, so it never delivers its potential.
-- **Infrastructure realities** — load-shedding, unreliable connectivity and rural coverage limit always-on cloud reliance; systems must keep working offline and sync when connected.
-- **Compliance and security** — POPIA and SARS (VAT) rules must be built in from the start, and customer data must be protected.
-- **High failure rate** — a large share of ERP implementations fail or disappoint. The cause is almost never the software; it is poor data, weak planning and under-investment in people.
+- **Process mismatch:** packaged systems are built around generic processes. When the software does not match how the business actually works, staff fall back to spreadsheets and workarounds.
+- **Connection complexity:** linking the POS, e-commerce, suppliers and banks needs APIs and middleware. Every connection can break when either side changes, and each new tool adds logins, training and fees.
+- **Cost blowouts:** data migration, integration, customisation and training cost far more than the licence fee. Professional setup alone can run to two or three times the annual licence, and real first-year projects overshoot their budgets (one SME budgeted R60,000 but ended up at R180,000).
+- **Skills shortage and change resistance:** most South African businesses say skills shortages hold back digital transformation. Staff who are not trained simply bypass the system, so it never delivers its potential.
+- **Infrastructure realities:** load-shedding, unreliable connectivity and rural coverage limit how much a business can rely on the cloud. Systems must keep working offline and sync when a connection returns.
+- **Compliance and security:** POPIA and SARS (VAT) rules have to be built in from the start, and customer data must be protected.
+- **High failure rate:** a large share of ERP implementations fail or disappoint. The cause is almost never the software; it is poor data, weak planning and under-investment in people.
 
 ## Adapting and Customizing Information Systems
 
 Existing product offerings vs custom solutions and adapted help.
 
-A retailer has three ways to get software — and the choice depends on how standard the business processes are.
+A retailer has three ways to get software, and the right choice depends on how standard the business processes are.
 
 ### Off-the-shelf products (buy)
 
 - **Pros:** fast to deploy, predictable pricing, the vendor maintains and updates it, and it embeds industry best practice.
 - **Cons:** limited fit (you bend your process to the software), feature bloat, and vendor lock-in with per-user pricing that grows with the business.
-- **Best for:** standard functions every business does — accounting, payroll, POS and basic customer management.
+- **Best for:** standard functions every business does, such as accounting, payroll, POS and basic customer management.
 
 ### Custom solutions (build)
 
 - **Pros:** built to your exact workflows, your data model and roadmap stay in your hands, and it can be a genuine competitive advantage.
-- **Cons:** higher upfront cost, slower to deploy, and you own the maintenance, security and upgrades — you need technical capacity or a reliable partner.
+- **Cons:** higher upfront cost, slower to deploy, and you own the maintenance, security and upgrades, so you need technical capacity or a reliable partner.
 - **Best for:** the workflow that actually makes you money, when no product models it cleanly.
 
 ### Adapted help (configure and extend)
@@ -118,18 +118,18 @@ A plan to implement IS into your business.
 
 ### Recommended plan for a small retailer
 
-1. **Assess first** — map how money, stock and customers move through the shop, and define clear outcomes and success metrics before buying anything.
-2. **Consolidate, don't accumulate** — choose one integrated system covering POS, inventory, accounting and customers (one or two tools that talk to each other), instead of adding more disconnected apps.
-3. **Do vendor due diligence** — demand a live demo on your own data, check for local support, POPIA and SARS (VAT) readiness, offline capability for load-shedding, and references from similar retailers.
-4. **Clean your data before migrating** — duplicate and incomplete records will wreck even a good system. Migrate only what the business needs and test the migration.
-5. **Configure, then customise** — start from the vendor's defaults and only build what is genuinely unique to the business.
-6. **Train by role and manage change** — train each person on the tasks they actually do, appoint a super user in the shop, and involve staff early so they take ownership.
-7. **Go live in phases** — pilot one till or branch first, verify the results, then roll out to the rest. Keep the old records accessible during the move and arrange concentrated support (hypercare) for the first few weeks.
-8. **Review and improve** — compare key indicators (stock accuracy, cash-up differences, turnover, margins) against the baseline, fix repeated problems, and plan the next phase.
+1. **Assess first:** map how money, stock and customers move through the shop, and define clear outcomes and success metrics before buying anything.
+2. **Consolidate, don't accumulate:** choose one integrated system covering POS, inventory, accounting and customers (one or two tools that talk to each other) instead of adding more disconnected apps.
+3. **Do vendor due diligence:** demand a live demo on your own data, check for local support, POPIA and SARS (VAT) readiness, offline capability for load-shedding, and references from similar retailers.
+4. **Clean your data before migrating:** duplicate and incomplete records will wreck even a good system. Migrate only what the business needs and test the migration.
+5. **Configure, then customise:** start from the vendor's defaults and only build what is genuinely unique to the business.
+6. **Train by role and manage change:** train each person on the tasks they actually do, appoint a super user in the shop, and involve staff early so they take ownership.
+7. **Go live in phases:** pilot one till or branch first, verify the results, then roll out to the rest. Keep the old records accessible during the move and arrange concentrated support (hypercare) for the first few weeks.
+8. **Review and improve:** compare key indicators such as stock accuracy, cash-up differences, turnover and margins against the baseline, fix repeated problems, and plan the next phase.
 
 ### Realistic budgeting
 
-The complete cost is more than the monthly fee. Plan for licensing, setup (often two to three times the annual licence), data migration, customisation, training and hardware — and add a **50–100% contingency** for the first year.
+The complete cost is more than the monthly fee. Plan for licensing, setup (often two to three times the annual licence), data migration, customisation, training and hardware, and add a **50–100% contingency** for the first year.
 
 ## Conclusion
 
