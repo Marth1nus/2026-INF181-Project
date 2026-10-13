@@ -15,8 +15,8 @@ _TODO_
 
 ### Group Members
 
-|    St# | Name        | Surname  |
-| -----: | :---------- | :------- |
+| Student number | Name        | Surname  |
+| :------------- | :---------- | :------- |
 | 578515 | Marthinus   | Prinsloo |
 | 600221 | Willem      | Kruger   |
 | 606135 | Travis      | Hanekom  |
@@ -184,7 +184,7 @@ Here are some decisions made for the visual presentation:
 For a per file break-down see [AI use record](https://github.com/Marth1nus/2026-INF181-Project/#ai-use)
 
 - [`ChatGPT`](https://chatgpt.com) was used to assist with scripts generating and deploying the output files (`presentation.html` and `rationale.pdf`) from the markdown source files.
-- An AI coding assistant (opencode) was used to draft the initial wording of the Enterprise Systems and IS Integration, Adapting and Customizing Information Systems, and Practical Recommendation sections, and to assist with verifying the referenced sources and building the outputs. The wording was then reviewed and edited manually.
+- An AI assistant (opencode) was used to help with the wording of the Enterprise Systems and IS Integration, Adapting and Customizing Information Systems, and Practical Recommendation sections. The wording was reviewed and edited manually.
 
 ## Conclusion
 
