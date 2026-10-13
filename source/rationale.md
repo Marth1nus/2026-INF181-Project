@@ -2,7 +2,10 @@
 
 ## Introduction
 
-_TODO_
+This document is the explanation of decisions made and goals chosen when making this [Presentation Document](https://marth1nus.github.io/2026-INF181-Project/presentation.html).
+The goal is to present the benefits and deficits of Information systems.
+The document is deployed as a html webpage to github pages and a accompanying PDF document is published explaining the presentation (this document).
+The client is meant to be informed and comfortable migrating their operations to include IS products.
 
 ### Where is our work is located?
 
@@ -16,11 +19,15 @@ _TODO_
 ### Group Members
 
 | Student number | Name        | Surname  |
-| :------------- | :---------- | :------- |
-| 578515         | Marthinus   | Prinsloo |
-| 600221         | Willem      | Kruger   |
-| 606135         | Travis      | Hanekom  |
-| 606091         | Christopher | Visser   |
+| -------------: | :---------- | :------- |
+|         578515 | Marthinus   | Prinsloo |
+|         600221 | Willem      | Kruger   |
+|         606135 | Travis      | Hanekom  |
+|         606091 | Christopher | Visser   |
+
+Work was split up by header on both documents.
+Marthinus made the build and deploy pipeline, then created a set of headers down to the `<h3>` level that group memebers could then claim and complete in the daily meetings leading up to the deadline.
+Work done by each student was tracked using Git and can be seen by inspecting the commit history (link supplied above).
 
 ## Design Goals and Target Audience.
 
@@ -188,9 +195,11 @@ The Continuos Deployment (CD) also means that we get a HTTPS output URL that sta
 
 Here are some decisions made for the visual presentation:
 
-- _TODO_
-- _TODO_
-- _TODO_
+- Markdown was chosen to supply a consistent way of formatting text with the ability to strategically bold, italic, bullet point, order points, table, block, and otherwise format the document to our needs.
+- A CSS document was made to apply a consistent professional style that would fit right in with a business professional's expectation of reading literature.
+- The presentation is shows as a webpage, making it simple to show and share within the client's circles where needed.
+- Writing emphasizes simple examples and is oriented around how the client's needs are affected by IS products.
+- Examples and explanations are kept short and focused with references to outside sources to keep the client focused and invested.
 
 ## AI Disclaimer
 
@@ -201,7 +210,8 @@ For a per file break-down see [AI use record](https://github.com/Marth1nus/2026-
 
 ## Conclusion
 
-_TODO_
+The presentation now clearly informs the client of what their business has to gain.
+Information systems provide value to any client utilizing them properly and the students who contributed to this project learned a lot while writing the content of this assignment.
 
 ## References
 
