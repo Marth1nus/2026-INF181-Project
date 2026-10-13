@@ -8,15 +8,13 @@ ISs collect inputs, manipulate data and generate outputs such as payrolls or cus
 
 ## Data and Information Management
 
+ISs allow easy capture of key data required to support management of operations, think a point of sale system for example taht uses barcodes to manage products. This organisational data is processed into information used for: sales orders, reservations, stock control, payrolls, accounting, financial, marketing and inventory control to name a few. This data can be used to form dashboards for better data visualisation and assist in financial decisions regarding the business. Changes that are not captured can result in data errors with financial impacts. Say for example a payment was sent to a supplier but no record was made by the business not only would the businesses financial statement be incorrect but the accounting department might pay the amount twice as it still reflects that it is unpaid. The use of ISs make errors like this harder to make as a record of the transaction would automatically be made.
+
 Through Decision Support Systems (DSS) large amounts of data can be analysed and presented in an easy to understand way to enable users to make more informed decisions. This included strategic, operational and financial decisions.
 
 Through the use of Supply Chain Management (SCM) systems organisations are able to coordinate supply and demand effectively and synchronise the movement of physical goods, payments, and data. SCM helps to optimise sourcing on materials and services at the lowest possible cost, manage inbound, outbound and internal product movement and use available resources effectively. SCM is designed with five key tasks (Ayers, 2006 as cited by Stanton D. 2023). That being designing supply chains for strategic advantage, implementing collaboration across departments, forging partnerships with supplier and customers, managing supply chain information, and aligning revenue and cost across the chain.
 
 Information systems can use customer data to engage customers with personalised content to strengthen customer relations and tailor marketing campaigns and customer interaction to individual preferences. This all serves to increase customer satisfaction and keep customers coming back for more by fostering goodwill. This is done using Customer Relation Management tools that manage every interaction a business has with its customers to track buyer behaviour and customer-support interaction history.
-
-What can IS do for Finance management?
-
-ISs allow easy capture of key data required to support management of operations, think a point of sale system for example taht uses barcodes to manage products. This organisational data is processed into information used for: sales orders, reservations, stock control, payrolls, accounting, financial, marketing and inventory control to name a few. Changes that are not captured can result in data errors with financial impacts. Say for example a payment was sent to a supplier but no record was made by the business not only would the businesses financial statement be incorrect but the accounting department might pay the amount twice as it still reflects that it is unpaid. The use of ISs make errors like this near impossible as a record of the transaction would automatically be made.
 
 ## Data Ethics, Privacy, and POPIA compliance.
 
@@ -130,9 +128,9 @@ _TODO_
 
 ## References
 
-Turban, E. and Pollard, C. and Wood, G. (2023) Information Technology for Management, 11th Edition NJ: John Wiley & Sons.
+- Turban, E. and Pollard, C. and Wood, G. (2023) Information Technology for Management, 11th Edition NJ: John Wiley & Sons.
 
-Stanton, D., 2023. Supply Chain Management For Dummies. 3rd ed. Hoboken, NJ: John Wiley & Sons.
+- Stanton, D., 2023. Supply Chain Management For Dummies. 3rd ed. Hoboken, NJ: John Wiley & Sons.
 
 - de Wet, A. (2026). *The app graveyard – why retail tech fails SMEs*. BusinessBrief. https://www.bbrief.co.za/2026/03/31/the-app-graveyard-why-retail-tech-fails-smes/
 - Heuer, C. (2025). *Breaking cloud ERP adoption barriers for South African SMEs*. Astraia. https://www.astraia.co.za/breaking-cloud-erp-adoption-barriers-for-south-african-smes/

@@ -39,8 +39,10 @@ Additional motivation in [Explanations per header](#explanations-per-header).
 _TODO_
 
 ### Data and Information Management
+The heading of this section remains closely worded to the project brief for convenience sake when marking against the brief. It includes a practical example of how information systems reduce data errors and automate certain operations to add efficiency.
 
-_TODO_
+This section informs the retail client what an information system can do in regards to how data is captured and used to improve workflow efficiency.
+The content covers how the captured data is processed to assist in improving effiency in the customer, financial and inventory sections of the client. Additionally the different types of information systems are briefly discussed to provide a better idea on how different data is used in different ways to aid in business operations and how the data can be used to optimise the owners decision-making.
 
 ### Data Ethics, Privacy, and POPIA compliance.
 
