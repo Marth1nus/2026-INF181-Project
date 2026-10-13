@@ -24,7 +24,7 @@ _TODO_
 
 ## Design Goals and Target Audience.
 
-_TODO_
+The target audience is small South African retail businesses interested in moving from using manual physical record keeping to an information system to improve operational efficiency. Our design goal is to produce a digital resource that is professional, visually consistent, and easy to navigate. The idea is that a nontechnical user could use the website independently without confusion.
 
 ## Structure and Heading Choices
 
