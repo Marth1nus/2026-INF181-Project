@@ -98,10 +98,21 @@ img {
 
 blockquote {
   margin-inline: 0;
-  padding: 0.5em 1em;
+  padding: 18px 22px;
+  border: 1px solid #dce3eb;
   border-left: 4px solid #6b8db5;
-  background: #f5f7fa;
-  color: #455468;
+  border-radius: 10px;
+  background: #f8fafc;
+  color: #3a4757;
+  box-shadow: 0 1px 3px rgba(23, 43, 77, 0.08);
+}
+
+blockquote > :first-child {
+  margin-top: 0;
+}
+
+blockquote > :last-child {
+  margin-bottom: 0;
 }
 
 table {
