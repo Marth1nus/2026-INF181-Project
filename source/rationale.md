@@ -52,6 +52,16 @@ The section additionally addresses access management, safe storage, employee dut
 
 This section aims to aid business owners and employees in recognizing the necessity of safeguarding customer information while enabling the business to capitalize on digital systems. Official South African references were chosen to clarify POPIA and offer readers trustworthy information for additional reading.
 
+Reference:
+
+https://www.gov.za/documents/protection-personal-information-act
+https://inforegulator.org.za/
+https://www.treasury.gov.za/POPIA/
+https://www.justice.gov.za/legislation/acts/2013-004.pdf
+https://www.justice.gov.za/legislation/acts/2013-004.pdf
+
+AI Assistance Note: ChatGPT was used to help find and organise information about POPIA, privacy and ethical data handling. Sources were identified for further research and verification.
+
 
 ### Artificial Intelligence (AI) and Decision Support.
 
