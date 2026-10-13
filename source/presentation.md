@@ -58,9 +58,57 @@ AI Assistance Note: ChatGPT was used to help find and organise information about
 
 ## Artificial Intelligence (AI) and Decision Support.
 
-How data collection can lead to optimization and decision improvements.
+With the information systems (IS) in place the business gains the ability to leverage Decision support systems (DSS) to gather the information into useful marker and suggestions.
+DSS can show graphs and projections that can aid the business in making decisions. Like seeing if a new strategy has had a effect on sales, or noticing when certain products go in or out of favor with your customers.
+Artificial intelligence system go another step further by being taught pattern to make active suggestions to the managers. For example it may be a pattern that certain perishable products are sold less in winter months of the year. The AI system may notice this and suggest a month in advance to lower the order quantity for the month's order in anticipation of the lowered sold to expired ratios.
+Both are critical to improve the efficiency of your business and would be a slow and inaccurate process without the support of the information systems (IS).
 
-_TODO_
+The best way to visualize the output of a DSS is with examples. It is a common pattern to see certain products going into fashion or falling out of fashion and it tends to take a while for a manager to notice and adjust prices to match.
+A DSS collects the data per day or even per till visit and automatically creates helpful information viewing reports.
+A graph showing that the prices are spiking above expected values is a clear way to notice these kinds of pricing changes early and empowering the store manager to up the prices or quickly order additional stock before stock runs out and the store misses out on revenue.
+The same applies in reserve. A popular product going out of style can mean additional storage cost or even spoiling product that added to costs but will likely yielded no revenue leading to losses. A DSS trends graph can allow the store manager to notice this early and drop prices or plan for alternative uses, while lowering new orders to compensate, leading to a reduction in losses.
+
+AI systems can use the DSS data to make decision in advance. For example a structured rule could be implemented to put in a order for new stock of a product if the stock of the store goes below a threshold value. Order bananas when there are fewer than 20 bananas left in the store and in storage. At the end of every day a store manager can see a list of low stock shown by an AI system so that they know what needs restocking.
+They can also use collected data to compare supplier automatically. If supplier A sells bananas at a higher price than supplier B then the AI system can notice and prefer to select supplier B to restore the stock to healthy levels. At the end of every day the store manager can see not just what to restock but which the best supplier to buy from today would be.
+There can be less structured decisions in place as well. Like setting a revenue and profits value compare to determine at what point the best way to expand the business is to open a new location. An AI system can track the values in the store and automatically suggest a new store location be opened once diminishing returns starts to appear significant in the current location. For example if customers per day has plateaued for too long. At the end of every day the Store owner can see when it becomes time to recommend opening a new store.
+
+The data that DSS and AI systems can provide become more useful over time as well.
+On a daily scale they can automate a lot of counting and management tasks like restocking, inventory tracking, and so on.
+On a monthly scale they can identify which stocks to reinforce or diminish, which products would benefit most from a sales promotion, and more.
+On a yearly scale they can show the need for new product categories or when the best time to open an additional store would be.
+Though these systems do not replace the judgment of competent managers they do give your manager more time and information to make their decisions with and boost your business outcomes greatly.
+
+Here is an example output of a data table that might be shown at the end of a day for a small store with only 5 products
+
+> | Product | Stock at Start of Day | Stock remaining at end of day | Restock required? | Average sales per day over the last month | Sales made today | Should attempt a sale? |
+> | :------ | --------------------: | ----------------------------: | ----------------: | ----------------------------------------: | ---------------: | ---------------------: |
+> | Bananas |                    70 |                            43 |                   |                                        16 |               27 |                        |
+> | Apples  |                    84 |                            68 |                   |                                        10 |               16 |                        |
+> | Sprite  |                    65 |                            59 |                   |                                        15 |                6 |                  SALE! |
+> | Milk    |                    43 |                            36 |                   |                                        12 |                7 |                  SALE! |
+> | Bread   |                    31 |                            10 |       RESTOCK NOW |                                        17 |               21 |                        |
+
+Having data collected in one place means that a manager need only make the decisions and do the tasks that need to be done. There is not need for every manager to keep a abacus handy at the end of every day.
+
+These Information Systems (IS) have limits and their value scales with the value of data fed into them.
+The principle is "Garbage In Garbage Out" where it describes the idea that if the data being put into the system is inaccurate of limited in scope it directly affects the usefulness of the data generated by the systems.
+If the stock counts or item prices are incorrectly entered then the system can not give an accurate recommendation or reflection of the state of your store. Similarly the system can not notice data that is not entered into it. For example items expiring. That could lead to a situation where the stock is miscounted due to unaccounted for additions or subtractions.
+Similarly if only a small subset of products or sales are entered into the system it can only recommend the best decisions based on the incomplete data and would not be able to recommend a strategy around data it is not made aware of.
+These systems can also not do all of the thinking for you. As useful as it is to have stock automatically counted and recommendation made, the data still requires a human to notice mistakes or plan for incoming changes to the market environment.
+
+The simplest way to start taking advantage of them is to simply enter the values currently being kept track of on paper into a computer system where it can be saved and analyzed. Later on modern tills and automation products can be installed to input the data automatically. Card payments for example already require informing the bank of transactions. Adding in a step that informs a DSS then means no additional effort per transaction while also guaranteeing that the data be entered and tracked automatically.
+The value of a DSS grows with the data you feed it so automated data collection slots nicely into that positive feedback loop.
+
+DSS automation is by far the greatest value adding feature of implementing IS into your business as it
+
+- Avoids losses
+- Reduces costs
+- Harnesses revenues
+- Increases reactivity of your decisions
+- Increases visibility of opportunities
+- Keeps operational management simple
+- Enables smart decision making
+- And ultimately keeps manager time requirement consistent regardless of the scale of the business.
 
 ## Enterprise Systems and Information System (IS) Integration challenges.
 
@@ -132,7 +180,21 @@ The complete cost is more than the monthly fee. Plan for licensing, setup (often
 
 ## Conclusion
 
-_TODO_
+Paper and spreadsheets keeps your data separated and limited to the efforts of singular people.
+Information Systems (IS) keep data in a central location with analytics and archiving provided at minimal time investment from each worker at your stores.
+They allow for the expansion of your boniness.
+
+- More products.
+- More people.
+- More locations.
+- No additional time per product.
+- No additional time per person.
+- No additional time per location.
+
+Your boniness stays functional and accurately run without being restricted by the scattering of information and management critical data over every scaled up resource your business utilizes.
+
+IS cost some money to implement and maintain, but ultimately keeps your business afloat and manageable. Luckily they can be implemented in stages where the value added by IS outgrows the associated costs for the rest of time.
+There is no doubt that adding in information systems means a bright and profit growing future for your business.
 
 ## References
 

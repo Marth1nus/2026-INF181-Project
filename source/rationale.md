@@ -36,8 +36,6 @@ Additional motivation in [Explanations per header](#explanations-per-header).
 
 ## Explanations per header
 
-_TODO_
-
 ### Data and Information Management
 
 The heading of this section remains closely worded to the project brief for convenience sake when marking against the brief. It includes a practical example of how information systems reduce data errors and automate certain operations to add efficiency.
@@ -67,7 +65,22 @@ AI Assistance Note: ChatGPT was used to help find and organise information about
 
 ### Artificial Intelligence (AI) and Decision Support.
 
-_TODO_
+This section of the document is meant to show the client the value of having data in a central location in order to help automate or analyze business critical resources.
+It emphasizes
+
+- Collection of data into a DSS.
+- Inference and presentation of data in a DSS.
+- Suggestions and patterns present in AI systems within a DSS.
+- The value of proper data management.
+- The minimization of management cost per resource of proper data management.
+- The scaling potential unlocked by the reduced management cost per resource.
+
+There is additional reference to the clearly separated stages that a DSS can be implemented in.
+It is clearly shown how they are able to scale into a DSS without needing to make a huge up-front resource investment.
+The types of decisions and datapoint are explained in both scope and temporalty so that the client may know more about the kinds of applicability of analytics from a DSS.
+The examples provided are simple be design in order to emphasize the universally applicable principles without distracting from the value with complex to understand examples.
+
+Over all the goal was to illustrate the scaling and value additions of DSS and AI systems while silencing the doubts about weather paper systems could provide the same benefits.
 
 ### Enterprise Systems and Information System (IS) Integration challenges.
 
