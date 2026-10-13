@@ -32,7 +32,6 @@ If an unauthorized person accesses or acquires personal information, the busines
 
 Complying with POPIA goes beyond just steering clear of legal issues. It additionally aids a company in establishing customer confidence. Customers are more inclined to share information when they comprehend the purpose of its collection and trust that it will be managed responsibly.
 
-
 Privacy and ethical obligations when collecting data
 
 Data ethics pertains to the accountable and equitable gathering, retention, and utilization of data. A company can adhere to legal standards and still must evaluate if its practices are equitable to consumers. Responsible data management involves honoring privacy, being transparent about the usage of information, and steering clear of methods that could harm or mislead individuals.
@@ -141,9 +140,9 @@ _TODO_
 
 - Stanton, D., 2023. Supply Chain Management For Dummies. 3rd ed. Hoboken, NJ: John Wiley & Sons.
 
-- de Wet, A. (2026). *The app graveyard – why retail tech fails SMEs*. BusinessBrief. https://www.bbrief.co.za/2026/03/31/the-app-graveyard-why-retail-tech-fails-smes/
-- Heuer, C. (2025). *Breaking cloud ERP adoption barriers for South African SMEs*. Astraia. https://www.astraia.co.za/breaking-cloud-erp-adoption-barriers-for-south-african-smes/
-- Hasheela-Mufeti, V., & Smolander, K. (2019). *What are the requirements of a successful ERP implementation in SMEs? Special focus on Southern Africa*. International Journal of Information Systems and Project Management, 7(2), 23–40. https://aisel.aisnet.org/ijispm/
-- MDPI Information (2021). *Risk factors when implementing ERP systems in small companies*, 12(11), 478. https://www.mdpi.com/2078-2489/12/11/478
+- de Wet, A. (2026). _The app graveyard – why retail tech fails SMEs_. BusinessBrief. https://www.bbrief.co.za/2026/03/31/the-app-graveyard-why-retail-tech-fails-smes/
+- Heuer, C. (2025). _Breaking cloud ERP adoption barriers for South African SMEs_. Astraia. https://www.astraia.co.za/breaking-cloud-erp-adoption-barriers-for-south-african-smes/
+- Hasheela-Mufeti, V., & Smolander, K. (2019). _What are the requirements of a successful ERP implementation in SMEs? Special focus on Southern Africa_. International Journal of Information Systems and Project Management, 7(2), 23–40. https://aisel.aisnet.org/ijispm/
+- MDPI Information (2021). _Risk factors when implementing ERP systems in small companies_, 12(11), 478. https://www.mdpi.com/2078-2489/12/11/478
 - PKF South Africa (2025). Skills shortage research (as cited in de Wet, 2026).
-- FinMark Trust (2024). *FinScope MSME South Africa 2024 survey* (as cited in de Wet, 2026).
+- FinMark Trust (2024). _FinScope MSME South Africa 2024 survey_ (as cited in de Wet, 2026).
